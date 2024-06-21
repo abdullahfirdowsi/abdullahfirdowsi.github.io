@@ -792,7 +792,7 @@ img{
 }
 
 .portfolio__button:hover .button__icon{
-    transform: translateX(.25rem);
+    transform: translateX(.225rem);
 }
 
 .swiper-button-prev::after,
@@ -1029,9 +1029,10 @@ img{
 }
 
 .footer__copy{
-    font-size: var(--smaller-font-size);
+    font-size: var(--h4-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #000000;
+    /* color: var(--text-color-light); */
     margin-top: var(--mb-3);
 }
 
